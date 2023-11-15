@@ -3,7 +3,7 @@ import "./App.css";
 import { Metacom } from "metacom";
 
 window.Metacom = Metacom;
-const metacom = Metacom.create("http://127.0.0.1:8003");
+const metacom = Metacom.create("http://127.0.0.1:8000");
 (async () => {
   const { api } = metacom;
   // try {
